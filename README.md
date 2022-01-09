@@ -8,9 +8,9 @@ Dependencies  |
 Basename      |
 wget          |
 
-##Syntax
+## Syntax
  ./download.sh *InputFile*
  
-##Examples
+## Examples
  ./download.sh examplefile.txt
  
