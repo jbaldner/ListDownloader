@@ -10,17 +10,17 @@ if [ -f "$1" ]; then
     
     mkdir -p "./files/"
 
-    if test -f "$fullfilepath"; then
+        if test -f "$fullfilepath"; then
 
-        echo "File $filename is already downloaded skipping"
+            echo "File $filename is already downloaded skipping"
 
-    else 
+        else 
 
-        mkdir -p "./files/$foldername/"
-        wget "$p" 
-        mv $filename "./files/$foldername/"
+            mkdir -p "./files/$foldername/"
+            wget "$p" 
+            mv $filename "./files/$foldername/"
 
-    fi
+        fi
 
   done <$1
 
