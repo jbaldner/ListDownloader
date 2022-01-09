@@ -9,8 +9,8 @@ Basename      |
 wget          |
 
 ## Syntax
- ./download.sh *InputFile*
+ ./ListDownloader.sh *InputFile*
  
 ## Examples
- ./download.sh examplefile.txt
+ ./ListDownloader.sh examplefile.txt
  
